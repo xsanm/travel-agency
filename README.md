@@ -1,16 +1,12 @@
-# travel-agency
+## travel-agency
 
 Web App Working like custom travel agency wrote using Angular and Firebase.
 
-**TODO**
-
-*Cart for not logged users
-
-*Guards
-
-*Roles
-
-*Security improvement
+TODO
+* Cart for not logged users
+* Guards
+* Roles
+* Security improvement
 
 
 
