@@ -1,0 +1,22 @@
+
+<nav class="navbar">
+  <a href="index.html"> <div class="logo"> Sklep z wycieczkami </div> </a>
+   <div class="menu">
+      <input type="checkbox" />
+      <span class="bar1"></span>
+      <span class="bar2"></span>
+      <span class="bar3"></span>
+      <ul class="menuBig">
+          <a routerLink="shop-component" routerLinkActive="active"><li >Home</li></a>
+          <a routerLink="adding-component" routerLinkActive="active"><li>Add Tour</li></a>
+          <a routerLink="cart-component" routerLinkActive="active"><li>Cart</li></a>
+          
+          <button mat-button *ngIf="!islogged" (click)="login()" >Loginin</button>
+          <button mat-button  *ngIf="!islogged" (click)="register()">Register</button>
+          <button mat-button  *ngIf="islogged" (click)="logout()">Logut</button>
+          <button mat-button  *ngIf="islogged" (click)="userMenu()">{{userEmail}}</button>
+      </ul>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>
