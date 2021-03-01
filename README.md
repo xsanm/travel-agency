@@ -3,10 +3,15 @@
 Web App Working like custom travel agency wrote using Angular and Firebase.
 
 **TODO**
+
 *Cart for not logged users
+
 *Guards
+
 *Roles
+
 *Security improvement
+
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.2.
